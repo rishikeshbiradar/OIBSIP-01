@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <!-- Heading -->
+    <h1>Calculator</h1>
+
+    <!-- Calculator Container -->
+    <div class="calculator">
+        
+        <div class="ip">
+            <input type="text" name="" id="input">
+        </div>
+
+        <div class="calc">
+
+            <table>
+                <tr>
+                    <th><button class="btn btn2" onclick="clrScr()">AC</button></th>
+                    <th><button class="btn" onclick="handleclick('0')">0</button></th>
+                    <th><button class="btn" onclick="handleclick('%')">%</button></th>
+                    <th><button class="btn" onclick="handleclick('/')">/</button></th>
+                </tr>
+                <tr>
+                    <th><button class="btn" onclick="handleclick('7')">7</button></th>
+                    <th><button class="btn" onclick="handleclick('8')">8</button></th>
+                    <th><button class="btn" onclick="handleclick('9')">9</button></th>
+                    <th><button class="btn" onclick="handleclick('*')">*</button></th>
+                </tr>
+                <tr>
+                    <th><button class="btn" onclick="handleclick('4')">4</button></th>
+                    <th><button class="btn" onclick="handleclick('5')">5</button></th>
+                    <th><button class="btn" onclick="handleclick('6')">6</button></th>
+                    <th><button class="btn" onclick="handleclick('-')">-</button></th>
+                </tr>
+                <tr>
+                    <th><button class="btn" onclick="handleclick('1')">1</button></th>
+                    <th><button class="btn" onclick="handleclick('2')">2</button></th>
+                    <th><button class="btn" onclick="handleclick('3')">3</button></th>
+                    <th><button class="btn" onclick="handleclick('+')">+</button></th>
+                </tr>
+                
+                <tr>
+                    <th><button class="btn" onclick="handleclick('**3')">**3</button></th> -->
+                    <th><button class="btn" onclick="handleclick('**2')">**2</button></th>
+                    <th><button class="btn" onclick="handleclick('.')">.</button></th> -->
+                    <th><button class="btn btn2" onclick="calculate()">=</button></th>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <h3>Copyright Ⓒ By 🖤 2023</h3>
+        <h2>Created By Rushikesh Biradar</h2>
+    </footer>
+    <hr>
+    <hr>
+
+    <!-- Script File -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
